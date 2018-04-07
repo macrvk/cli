@@ -25,6 +25,7 @@ _Work in progress_
 - `cd [DIRECTORY]`: lleva el PROMPT a DIRECTORY
 - `touch [FILE]`: si FILE existe, modifica la hora de última modificación al momento de la ejecución del comando, si FILE no existe, lo crea
 - `ln -s [DIRECTORY] [NAME]`: crea un _link_ simbólico llamado NAME hacia DIRECTORY, NAME se comporatará como DIRECTORY
+- `head [FILE]`: muestra las primeras 10 lineas de un archivo de texto
 - `tail [FILE]`: muestra las últimas 10 lineas de un archivo de texto
 - `tail -f [FILE]`: tail _forever_, en principio muestra las últimas 10 líneas de FILE, pero mantiene abierto el archivo e imprime los cambios que se vayan escribiendo (secuencialmente) en éste, muy útil para _logs_.
 - `more [FILE]`: muestra el contenido de un archivo de texto de forma páginada
